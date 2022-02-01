@@ -34,8 +34,8 @@ export default {
   },
   mounted () {
     axios
-      .get('http://localhost:3000/posts')
-      // .get('https://ersvp.g12.br/fecult/teste.json')
+      // .get('http://localhost:3000/posts')
+      .get('https://ersvp.g12.br/fecult/teste.json')
       .then(resp => (this.alunos = resp.data))
   }
 }

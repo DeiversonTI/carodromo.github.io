@@ -52,5 +52,15 @@
     "node": ">= 12.22.1",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
-  }
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeiversonTI/quasarjs.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeiversonTI/quasarjs/issues"
+  },
+  "homepage": "https://github.com/DeiversonTI/quasarjs#readme"
 }
